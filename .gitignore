@@ -1,0 +1,23 @@
+# InkFathom
+
+# Demo ledger created by demo.sh (never commit it)
+.inkfathom-demo/
+
+# A local ledger, if anyone points the tool at the project root
+.inkfathom/
+*.json.tmp
+.ledger-*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Editors and OS noise
+.DS_Store
+.idea/
+.vscode/
+
+# Local environment overrides (none are required: the tool needs no secrets)
+.env
